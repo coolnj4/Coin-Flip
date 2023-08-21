@@ -1,3 +1,4 @@
+//Dependencies 
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -9,9 +10,9 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
 import java.awt.Dimension;
 
+//Program Starts from here
 public class CoinFlip {
   public static void main(String[] args) {
 
@@ -33,7 +34,6 @@ public class CoinFlip {
     JPanel panel = new JPanel();
 
     panel.add(label);
-    // panel.add(l2);
     panel.add(button);
     panel.setBorder(BorderFactory.createTitledBorder("Coin Flip"));
 
